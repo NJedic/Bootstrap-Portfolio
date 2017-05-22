@@ -1,0 +1,142 @@
+html{
+	position: relative;
+	min-height: 100%;
+}
+ 
+body {
+ 	padding: 0;
+  	margin-bottom: 95px;
+  	line-height: 145%;
+  	color: #777777;
+  	background-image: url("https://c1.staticflickr.com/5/4161/34707341245_1fffa4c723.jpg");
+	}
+
+/*Navbar - Full Name*/
+.navbar-brand{
+	color: white;
+	font-family: Georgia, Times, Times New Roman, Serif;
+	background-color: #4aaaa5;
+	height: 93px;
+	font-size: 2.5em;
+	font-weight: bold;
+	line-height: 145%;
+	padding: 25px;
+}
+/*.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	text-decoration: none;
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+*/
+
+/*Navbar - Links on Right*/
+.tab{
+	font-size: 16px;
+	font-family: Arial, Helvetica neue, Helvetica, Sans-serif;
+	margin: 20px;
+}
+
+/*Main Section on the Right*/	
+.col-md-7{
+	background-color: #ffffff;
+	padding: 0px;
+}	
+
+/*Headers on Main Section and Sidebar*/
+h2{
+	padding-left: 35px;
+	color: #4aaaa5;
+	font-family: Georgia, Times, Times New Roman, Serif;
+	margin: 5px 0px 20px 10px;
+
+}
+
+h3{
+	color: #4aaaa5;
+	font-family: Georgia, Times, Times New Roman, Serif;
+	margin: 5px 0px 20px 10px;
+}
+
+/*About Page: Picture and Text*/
+.img-responsive{
+	width: 100%;
+	margin: auto;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+p{
+	font-size: 16px;
+	width: 100%;
+	margin: auto;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+/*Sidebar*/
+.panel-body{
+	background-color: #ffffff;
+	margin: auto;
+}
+
+/*Sidebar Heading*/
+h3{
+	margin-bottom: 0px;
+	font-weight: bold;
+} 
+
+/*Sidebar Links to Social Media*/
+.button{
+	margin: auto;
+	padding-left: 8px;
+}
+
+/*Contact Page: Form*/
+form{
+	padding-top: 20px; 
+}
+
+/*Portfolio Page: Link/Pictures*/
+.col-md-6{
+	width: 48%;
+	vertical-align: middle;
+}
+
+
+
+/*Portfolio Page: Labels*/
+
+.col-sm-8{
+	position: relative;
+		bottom: 55px;
+		right: 18px;
+	width: 83%;
+	font-family: Georgia, Times, Times New Roman, Serif;
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 14pt;
+	text-align: center;
+	padding: 10px;
+}
+
+
+
+/*font: ;ter*/
+
+#footer{
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+}
+
+.footer-block{
+	color: #eee;
+	font-size: 10px;
+	font-family: Arial, Helvetica neue, Helvetica, Sans-serif;
+	font-size: 10pt;
+	text-align: center;
+}
